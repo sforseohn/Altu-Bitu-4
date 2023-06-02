@@ -23,6 +23,7 @@ string judge(cards& deck)
 
 // 그라운드에서 덱으로 카드 옮기기
 void groundToDeck(deque<int>& deck, deque<int>& ground) {
+
 	while (!ground.empty()) { // 그라운드가 비어 있지 않으면
 		deck.push_back(ground.back()); // 그라운드의 가장 뒤에 있는 카드를 덱으로 옮김
 		ground.pop_back();             // 카드를 그라운드에서 삭제
