@@ -69,7 +69,6 @@ string game(int m, cards& deck, cards& ground) {
 		turn = !turn; // 차례 바꾸기
 	}
 	return judge(deck); // 승리한 사람 리턴
-
 }
 
 /*
@@ -84,7 +83,6 @@ string game(int m, cards& deck, cards& ground) {
 int main()
 {
 	int n, m, card1, card2; // 카드의 개수, 게임 진행 횟수
-
 	cards deck(2), ground(2); // 0: 도도, 1: 수연
 	// 입력
 	cin >> n >> m;

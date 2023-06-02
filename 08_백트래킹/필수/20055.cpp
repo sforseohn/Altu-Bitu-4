@@ -45,6 +45,7 @@ bool checkFinish(deque<info> &belt, int n, int k) {
             count++;
         }
     }
+
     if (count >= k) { // count가 k 이상이면 종료 조건 만족
         return true;  // true 반환
     }
